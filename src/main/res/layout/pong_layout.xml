@@ -1,0 +1,30 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.chrisgarcia.pong.PongView
+            android:id="@+id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    <TextView
+            android:id="@+id/score"
+            android:text="0 0"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="20dip"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"/>
+
+    <TextView
+            android:id="@+id/status"
+            android:text="Press to Start"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dip"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"/>
+
+</merge>
